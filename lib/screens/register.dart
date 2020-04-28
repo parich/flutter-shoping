@@ -98,7 +98,7 @@ class _RegisterState extends State<Register> {
         if (!((value.contains('@')) && (value.contains('.')))) {
           return 'Exp. you@email.com';
         } else {
-           return 'Email : Success';
+           return null;
         }
       },
       onSaved: (String value) {
